@@ -37,11 +37,25 @@ dependencies {
     implementation 'com.google.android.material:material:1.1.0-alpha05'
     implementation 'androidx.multidex:multidex:2.0.1'
     /**
+     * 网络请求
+     */
+    implementation 'io.reactivex:rxandroid:1.2.1'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
+    /**
+     * 图片处理
+     */
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'jp.wasabeef:glide-transformations:3.3.0'
+    implementation 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
+    /**
      * Component
      */
     implementation 'pub.devrel:easypermissions:2.0.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${kotlin_version}"
     implementation 'com.jeremyliao:live-event-bus-x:1.4.0'
+    implementation 'com.orhanobut:logger:1.15'
     /**
      * UI
      */

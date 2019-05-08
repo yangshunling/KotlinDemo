@@ -55,7 +55,7 @@ abstract class BaseActivity : AppCompatActivity(), EasyPermissions.PermissionCal
      */
     private fun statusBar() {
         immersionBar {
-            statusBarColor(R.color.colorAccent)
+            statusBarColor(R.color.app_color)
             fitsSystemWindows(true)
         }
     }
